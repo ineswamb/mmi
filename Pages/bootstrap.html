@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <title> The Sound | Bienvenue sur le site officiel de mon service</title>
+   <meta name="Description" content="Ici se trouve la description de page visible sur une recherche Google" />
+   <meta name="Keywords" content="MonSuperSite, blog, article, service " />
+   <meta name="author" content="A.W" />	  
+   <link rel="stylesheet" type="text/css" href="css/style3.css" media="screen" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/> 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+   </head>
+	
+<body>
+	 
+	<div class="accueil">
+            <header>
+
+                  <nav>
+
+                        <div class="logo">
+                             <a href="#"><img src="../Medias/thesound.png" alt="logo" width="200px"></a>
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Concert</a></li>
+								    <li><a href="#">Festival</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+								    <li><a href="#"><img src="../Medias/compte.png" alt="Mon compte" width="60px"></a></li>
+                                    <li><a href="#"><img src="../Medias/panier.png" alt="Panier" width="60px"></a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="cat1">
+				
+				<p class="text1"> Les meilleurs festivals de 2019 </p>
+                  
+            </div>
+		
+		    <div class="cat2">
+				
+				<p class="text2"> Les meilleurs concerts de 2019 </p>
+                  
+            </div>
+		
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle bouton
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Effet scroll
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+	
+
+</body>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>
+
